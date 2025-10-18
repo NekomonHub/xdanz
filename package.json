@@ -1,0 +1,16 @@
+{
+  "name": "xdanz",
+  "version": "2.2.2",
+  "type": "module",
+  "description": "Powerfull Network Attack By AnonDellX and AnonDanz02",
+  "main": "danz.js",
+  "scripts": {
+    "start": "node danz.js"
+  },
+  "author": "AnonDellX",
+  "license": "ISC",
+  "dependencies": {
+    "gradient-string": "^3.0.0",
+    "open": "^10.2.0"
+  }
+}
